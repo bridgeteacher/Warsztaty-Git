@@ -7,7 +7,7 @@ class Program
         Console.Write("Enter the limit for Fibonacci series: ");
         int limit = int.Parse(Console.ReadLine());
         
-        Console.WriteLine("Fib Series master with rebase:");
+        Console.Write("Fib2 Series master with rebase:");
         PrintFibonacci(limit);
     }
 
