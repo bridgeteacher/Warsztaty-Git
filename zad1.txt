@@ -7,7 +7,7 @@ class Program
         Console.Write("Enter the limit for Fibonacci series: ");
         int limit = int.Parse(Console.ReadLine());
         
-        Console.WriteLine("Fibonacci Series:");
+        Console.WriteLine("Fibonacci Serieso");
         PrintFibonacci(limit);
     }
 
