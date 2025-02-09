@@ -1,0 +1,28 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Enter the limit for Fibonacci series: ");
+        int limit = int.Parse(Console.ReadLine());
+        
+        Console.WriteLine("Fibonacci Series:");
+        PrintFibonacci(limit);
+    }
+
+    static void PrintFibonacci(int limit)
+    {
+        int a = 0, b = 1, c;
+        Console.Write(a + " " + b + " ");
+        
+        while (true)
+        {
+            c = a + b;
+            if (c > limit) break;
+            Console.Write(c + " ");
+            a = b;
+            b = c;
+        }
+    }
+}
